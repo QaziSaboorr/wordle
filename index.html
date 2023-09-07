@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Wordle</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <body id = "body">
+      <!-- content here -->
+      
+      <div id ="header">
+        <h1 id = "title">Wordle</h1>
+        <ul id = buttons>
+  
+      <li><button buttontype = "button" id = "light"> &#9681</button></li> 
+      <li><button buttontype = "button" id = "hint">&#63</button></li> 
+      <li><button buttontype = "button" id = "rules">&#9432</button></li> 
+        </ul>
+  
+     
+    </div>
+    <div id ="main">
+    <div id  = "left">
+      <div id = "board">
+      
+  
+  
+      </div>
+      <div id = "image">
+        <canvas class="confetti" id="canvas"></canvas>
+      <img id  = "gif" src = "congrats_fkscna.gif" alt ="Congratulations" width="500" height="1000">
+      <canvas class="confetti" id="canvas"></canvas>
+    </div>
+    <div>
+      <button   type = "button" id="startover">Start Over
+      </button>
+    </div>
+
+    <p id = "answer">
+   
+    </p>
+
+  </div>
+     <div id = "menu">
+  <h2 id  = "how-to-play">How to play</h2>
+      <ul>
+        <li>Start typing. The letters will appear in the boxes.
+      </li>
+        <li>
+          Remove letters with Backspace.
+        </li>
+        <li>
+          Hit Enter/Return to submit an anwer.
+  
+        </li>
+        <li>
+          Letters with green background are in the right spot.
+        </li>
+        <li>
+          Letters with yellow background exist in the word, but are in the wrong spot.
+        </li>
+        <li>
+          Letters with gray background do not exist in the word.
+        </li>
+        <li>
+          If you need a hint, click the &#63 icon
+        </li>
+      </ul>
+     </div>
+    
+
+      </div>
+      <footer >
+        <p> <span> ©️ </span>Qazi Ali 2023</p>
+         
+         </footer>
+  
+
+
+
+    <script src="./wordle.js"></script>
+  </body>
+</html>
